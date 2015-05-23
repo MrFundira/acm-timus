@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class USteak {
+  public static void main(String[] args) throws IOException {
+    BufferedReader f = new BufferedReader(new InputStreamReader(System.in));
+    StringTokenizer st = new StringTokenizer(f.readLine());
+    int n = Integer.parseInt(st.nextToken());
+    int k = Integer.parseInt(st.nextToken());
+    int ans = n * 2 / k;
+    System.out.println(ans);
+    f.close();
+    System.exit(0);
+  }
+}
