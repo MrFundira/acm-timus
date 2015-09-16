@@ -13,7 +13,7 @@ public class Flags {
     if (n <= 2) {
       return 2;
     }
-    return fib(n) + fib(n-1) + fib(n-2);
+    return 2 * fib(n);
   }
 
   public static long fib(int n) {
