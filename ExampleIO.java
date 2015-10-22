@@ -11,6 +11,12 @@ public class ExampleIO
   StreamTokenizer in;
   PrintWriter out;
 
+  String next() throws IOException
+  {
+    in.nextToken();
+    return in.sval;
+  }
+
   int nextInt() throws IOException
   {
     in.nextToken();
