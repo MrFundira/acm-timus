@@ -42,7 +42,7 @@ public class MersennePrimes
     while (t-- > 0) 
     {
       int n = nextInt();
-      System.out.println(primes[n-1]);
+      out.println(primes[n-1]);
     }
   }
 }

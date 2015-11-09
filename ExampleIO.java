@@ -5,7 +5,7 @@ public class ExampleIO
 {
   public static void main(String[] args) throws IOException
   {
-    new ExampleIO.run();
+    new ExampleIO().run();
   }
 
   StreamTokenizer in;
